@@ -72,6 +72,7 @@ public class Auto {
     public String toString(){
         return "codice:"+this.codice+" targa:"+this.targa+" marca:"+this.marca+" modello:"+this.modello+" numero di posti:"+this.numero_posti;
     }
+
     public boolean equals(Auto that){
         boolean r=false;
         if(this.codice==that.codice && this.targa==that.targa && this.marca==that.marca && this.modello==that.modello && this.numero_posti==that.numero_posti){
